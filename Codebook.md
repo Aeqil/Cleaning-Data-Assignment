@@ -8,36 +8,66 @@ Then, the average of each of those values has been calculated with respect to th
 Thus, each observation contains the average of the mean and the standard deviation for a given activity and subject for each of the following entries:
 
 tBodyAcc-X
+
 tBodyAcc-Y
+
 tBodyAcc-Z
+
 tGravityAcc-X
+
 tGravityAcc-Y
+
 tGravityAcc-Z
+
 tBodyAccJerk-X
+
 tBodyAccJerk-Y
+
 tBodyAccJerk-Z
+
 tBodyGyro-X
+
 tBodyGyro-Y
+
 tBodyGyro-Z
+
+
 tBodyGyroJerk-X
+
 tBodyGyroJerk-Y
+
 tBodyGyroJerk-Z
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
+
+
 
 In addition, each observation contains the following two data points:
 
 label
+
 subject
 
 These refer to the activity label and the subject identifier respectively.
