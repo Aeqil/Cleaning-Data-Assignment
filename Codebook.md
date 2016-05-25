@@ -44,7 +44,7 @@ These refer to the activity label and the subject identifier respectively.
 
 In the produced data set, the variable names have been extracted from secondary files and appended to relevant columns, and the activity labels have been appropriately modified to their textual values.
 
-THE DATASET:
+THE ORIGINAL DATASET:
 ======
 
 Human Activity Recognition Using Smartphones Dataset
