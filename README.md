@@ -7,7 +7,7 @@ First, the script checks to see if the folder for the data set exists, and if it
 
 It then reads in the data from the test and train sets, as well as secondary files containing variable names, subject IDs and other identifying markers. The variable names of the data sets are then updated with more useful nomenclature that gives meaning to each value.
 
-The script extracts the measurements for the mean and standard deviation of the observed signals, and stores them in data sets. Additional context is then provided to the data, specifically activity labels and subject IDs for each observation.
+The script extracts the measurements for the mean and standard deviation of the observed signals (note: the mean frequency is NOT extracted), and stores them in data sets. Additional context is then provided to the data, specifically activity labels and subject IDs for each observation.
 
 Once this is completed, the two data sets are merged together. Merging the sets now rather than upon reading them in is a deliberate choice designed to minimise impact on system resources, since our extraction of specific variables means that a large portion of the original data set has been discarded, and so attempting to merge that unnecessary data as well would be wasteful.
 
