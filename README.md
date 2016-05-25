@@ -1,6 +1,7 @@
 # Cleaning-Data-Assignment
 The repository for storing run_analysis.R for the Coursera course Getting and Cleaning Data.
 
+## Walking through the code
 First, the script checks to see if the folder for the data set exists, and if it does not, then it unzips the provided zip file into that folder.
 
 It then reads in the data from the test and train sets, as well as secondary files containing variable names, subject IDs and other identifying markers. The variable names of the data sets are then updated with more useful nomenclature that gives meaning to each value.
@@ -13,7 +14,7 @@ Finally, the activity labels are given specific names to further clarify the dat
 
 The resultant data set is then returned to the user.
 
-Important Notes
+##Important Notes
 
 The run_analysis.R file requires the presence of the UCI HAR dataset (as a zipped file or as an expanded folder) within the working directory.
 
